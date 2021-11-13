@@ -1,9 +1,7 @@
 import { Center, Stack, Box } from "@chakra-ui/layout";
 import {useState} from 'react';
 import Header from './components/Header';
-import List from './components/List';
-import ClearAll from './components/ClearAll';
-import data from './components/data';
+import List from './components/List';import data from './components/data';
 
 function App() {
 
@@ -14,8 +12,6 @@ function App() {
       <Center>
         <Box>
           <Header />
-          <List people={people} />
-          <ClearAll onClick={() => setPeople([])} />
         </Box>
       </Center>
     </Stack>
