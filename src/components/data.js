@@ -1,4 +1,4 @@
-export default [
+const people = [
     {
       id: 1,
       name: 'Bertie Yates',
@@ -34,4 +34,6 @@ export default [
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
     },
-  ];
+];
+  
+export default people;

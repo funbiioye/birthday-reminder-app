@@ -5,7 +5,7 @@ import data from './data'
 
 function ClearAll() {
 
-    const [people, setPeople] = useState(data)
+    const [ ,setPeople] = useState(data);
 
     return (
         <Center>

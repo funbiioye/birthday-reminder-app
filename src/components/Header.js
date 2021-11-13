@@ -5,7 +5,7 @@ import data from './data'
 
 function Header() {
 
-    const [people, setPeople] = useState(data)
+    const [people] = useState(data);
 
     return (
         <Center>
